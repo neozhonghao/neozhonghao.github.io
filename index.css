@@ -1,0 +1,9 @@
+.section-title {
+  font: italic bold 1.2em "times new roman", serif;
+  color: steelblue;
+  text-decoration: underline;
+}
+
+.section-text {
+  font: italic bold 1.2em "times new roman", serif;
+}
