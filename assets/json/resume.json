@@ -1,199 +1,196 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+      "name": "Zhonghao Neo",
+      "position": "Machine Learning Engineer",
+      "image": "",
+      "email": "neozhonghao@gmail.com",
+      "phone": "(4O4)-563-5336",
+      "status": "OPT + STEM or H-1B1 (placement assured)", 
+      "summary": "Experienced Machine Learning Engineer specializing in building and deploying enterprise applications. Proven track record in driving business impact through scalable and reliable digital solutions for regulated industries, especially in the finance and healthcare sectors.",
+      "location": {
+        "city": "Atlanta",
+        "countryCode": "US",
+        "region": "Georgia"
+      }
     },
-    "profiles": [
+    "work": [
+        {
+          "name": "Sourced, An Amdocs Company",
+          "position": "Solutions Architect",
+          "url": "https://www.sourcedgroup.com/",
+          "startDate": "2021-05-01",
+          "endDate": "2023-08-01",
+          "summary": "Designing and implementing complex systems and applications that meet the client's business needs",
+          "highlights": [
+              "Generated at least USD 1.5M revenue for the company during entire tenure.",
+              "Architected data strategy for a highly regulated tier-1 global financial institution."
+          ]
+        },
+        {
+            "name": "Sourced, An Amdocs Company",
+            "position": "Software Engineer",
+            "url": "https://www.sourcedgroup.com/",
+            "startDate": "2021-05-01",
+            "endDate": "2023-08-01",
+            "summary": "Developing, implementing, and maintaining data analytics applications and systems",
+            "highlights": [
+                "Deployed an anti-money laundering (AML) platform in a USD 10M project for a leading ASEAN bank."
+            ]
+          },
+          {
+            "name": "AI Singapore",
+            "position": "Software Engineer (ML)",
+            "url": "https://aisingapore.org/",
+            "startDate": "2020-07-01",
+            "endDate": "2021-04-01",
+            "summary": "Automating and optimizing the processes involved in building, testing, deploying, and monitoring ML applications",
+            "highlights": [
+                "Developed a simplified and automated deployment framework, translatating to at least 10% savings in cost."
+            ]
+          },
+          {
+            "name": "BioMind",
+            "position": "ML Engineer",
+            "url": "https://biomind.ai/",
+            "startDate": "2018-05-01",
+            "endDate": "2020-06-01",
+            "summary": "Applying state-of-the-art machine learning algorithms to healthcare industry",
+            "highlights": [
+                "Published paper on image segmentation with CNN to identify cerebral aneurysms"
+            ]
+          }
+          ],
+    "education": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "institution": "Georgia Institute of Technology",
+        "location": "Atlanta, U.S.",
+        "url": "https://www.gatech.edu/",
+        "area": "Computer Science",
+        "studyType": "Masters",
+        "score": "4.0",
+        "endDate": "2014-08-01",
+        "courses": ["Data and Visual Analytics", "ML for Trading", "Graduate Algorithms", "Information Security", "Real-Time Operating Systems"]
+      },
+      {
+        "institution": "National University of Singapore",
+        "location": "Singapore",
+        "url": "https://nus.edu.sg/",
+        "area": "Physics",
+        "studyType": "Bachelors",
+        "endDate": "2014-08-01",
+        "courses": ["Classical Mechanics", "Statistical Mechanics", "Quantum Mechanics", "Computational Methods"]
+      }
+    ],
+    "certificates": [
+      {
+        "name": "9x AWS Certificates",
+        "date": "2023-08-01",
+        "issuer": "Amazon Web Services",
+        "url": "https://www.credly.com/users/zhong-hao-neo/badges",
+        "icon": "fa-solid fa-square-check"
+      },
+      {
+        "name": "Databricks Certified Associate Developer for Apache Spark",
+        "date": "2022-08-08",
+        "issuer": "Databricks",
+        "url": "https://www.credential.net/1998a005-a612-4eb3-9b60-9e912263e170",
+        "icon": "fa-solid fa-square-check"
+      },
+      {
+        "name": "AI APPRENTICESHIP PROGRAMME",
+        "date": "2021-04-09",
+        "issuer": "AI Singapore",
+        "url": "https://www.credential.net/ebd56b9e-ee97-4648-9998-83818e624365",
+        "icon": "fa-solid fa-square-check"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Deep neural network-based detection and segmentation of intracranial aneurysms on 3D rotational DSA",
+        "publisher": "SAGE Publications Sage UK: London, England",
+        "releaseDate": "2021",
+        "url": "https://journals.sagepub.com/doi/10.1177/15910199211000956",
+        "summary": "This study aims to develop a 3D convolutional neural network (CNN) model to detect and segment intracranial aneurysms (IA) on 3D rotational DSA (3D-RA) images."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["Numpy", "Pandas", "Scikit-Learn", "Scikit-Image", "Matplotlib", "NLTK", "Seaborn", "Tensorflow"]
+      },
+      {
+        "name": "AI/ML",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["HPC", "Spark", "Hive", "CDSW", "SageMaker", "Redshift", "Hadoop", "Databricks", "LangChain", "HuggingFace", "Llama", "RAG"]
+      },
+      {
+        "name": "Dev-Ops",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["Ansible", "Gitlab", "GitOps", "Jenkins", "CI/CD", "Docker", "Kubernetes", "Helm", "Seldon-Core", "Prometheus", "Grafana", "Kubeflow", "MLflow"]
+      },
+      {
+        "name": "Security",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["Wireshark", "SQL Injection", "RSA Encryption", "Buffer Overflow", "Pwntools", "Log4Shell", "AWS Security Certified", "NIST-CSF"]
+      },
+      {
+        "name": "AWS",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["CloudFormation", "IAM", "KMS", "Serverless", "CloudWatch", "CloudTrail", "Billing", "Networking"]
+      },
+      {
+        "name": "Others",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["MySQL", "PostgreSQL", "Matlab", "Shell", "C++", "Java", "Git", "DrawIO", "HTML", "Qlik", "Tableau", "AWS QuickSight"]
+      },
+      {
+        "name": "Project Management",
+        "icon": "fa-solid fa-square-check",
+        "keywords": ["Jira", "Confluence", "Salesforce", "Miro", "Microsoft Teams"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native",
+        "icon": ""
+      },
+      {
+        "language": "Chinese",
+        "fluency": "Native",
+        "icon": ""
+      },
+      {
+        "language": "American",
+        "fluency": "Little Bit",
+        "icon": ""
+      },
+      {
+        "language": "Singlish",
+        "fluency": "No Limit",
+        "icon": ""
+      }
+    ],
+    "references": [
+      {
+        "name": "Mark Burnard",
+        "url": "https://www.linkedin.com/in/markburnard/",
+        "icon": "fa-solid fa-thumbtack",
+        "reference": "Zhong Hao was instrumental in helping deliver some of our most complex and highly visible projects, including a customized anti-money laundering (AML) solution for a tier one bank in the region, applying machine learning techniques on a petabyte scale data lake. I have no hesitation in recommending Zhong Hao to any future employer"
+      },
+      {
+        "name": "Aaron Lauer",
+        "url": "https://www.linkedin.com/in/aaron-lauer-a871b85/",
+        "icon": "fa-solid fa-thumbtack",
+        "reference": "I had the distinct privilege of directly managing and working side-by-side with Zhonghao on some of the most innovative Cloud data platforms in Singapore. His drive to always improve and learn put our projects into the forefront of management teams at some of the largest banks in Singapore. Zhonghao will be a major asset to any organization that hires him."
+      },
+      {
+        "name": "Salman Syed",
+        "url": "https://www.linkedin.com/in/salman-azeez-syed/",
+        "icon": "fa-solid fa-thumbtack",
+        "reference": "I have worked with Zhonghao as a project partner at Georgia Tech, and throughout my long interaction with him, I can vouch for his goal-driven nature and work ethic. Once his mind is set on a goal, he works meticulously towards it, often exceeding those goals. He is adaptable and has the ability to lead any future project with excellence."
       }
     ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+  }
+  
