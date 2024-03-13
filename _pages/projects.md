@@ -5,7 +5,6 @@ permalink: /projects/
 description: The side quests in my life. Here are some of them that I do in my spare time.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 
