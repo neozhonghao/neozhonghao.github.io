@@ -1,9 +1,8 @@
 ---
 layout: page
-title: The Backdrop
-description: Background removal tool that blurs background in profile photos using image segmentation
-img: assets/img/project_backdrop.png
+title: Toy Robot
+description: Toy example using AWS serverless architecture
+img: assets/img/project_toyrobot.png
 importance: 1
-redirect: https://thebackdrop.streamlit.app/
+redirect: https://z68kn28mmf.execute-api.us-east-1.amazonaws.com/dev/robot
 ---
-
