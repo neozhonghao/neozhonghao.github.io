@@ -117,7 +117,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: My thoughts # blog_name will be displayed in your blog page
-blog_description: You think, I thought, who confirm?
+blog_description: I think, therefore I am! 🤖
 permalink: /blog/:year/:title/
 
 # Pagination
